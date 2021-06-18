@@ -1,6 +1,7 @@
-
 import 'package:flutter/material.dart';
-import 'package:flutter_app3/HomePage.dart';
+import 'package:flutter_app3/Screens/Contact.dart';
+import 'package:flutter_app3/Screens/Navigation.dart';
+import 'package:flutter_app3/Screens/faqs.dart';
 void main() {
   runApp(MyApp());
 }
@@ -13,7 +14,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: HomePage(),
+      home:Contact(),
     );
   }
 }
